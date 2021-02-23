@@ -2,7 +2,7 @@ from subprocess import check_call
 import shlex
 
 
-git_cmd=['https://gitlab.com/MsWik/DZ_2_dewops.git','https://gitlab.com/MsWik/DZ_2_dewops.git','https://MrPihma@bitbucket.org/MrPihma/dz_2_dewops.git']
+git_cmd=['https://github.com/MsWik/DZ_2_dewops.git','https://gitlab.com/MsWik/DZ_2_dewops.git','https://MrPihma@bitbucket.org/MrPihma/dz_2_dewops.git']
 def add(git_cmd):
     branch_main_cmd='git branch -M main'
     check_call(shlex.split(branch_main_cmd))
